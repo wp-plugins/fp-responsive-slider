@@ -1,0 +1,91 @@
+/*! http://flourishpixel.com v1.0 by @Moshiur Rahman */
+#fprslider {
+  max-width: 1200px;
+ 
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides ul{
+	margin:0;
+	padding:0;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  list-style:none;
+  margin:0 !important;
+  padding:0 !important;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.custom_table input[type='text']{
+	margin-right:5px;
+	border:1px solid #DDD;
+	padding:3px 5px;
+}
+ul.rslides_tabs{
+	margin-top:-15px !important;
+	text-align:center;
+}
+ul.rslides_tabs li{
+	display:inline-block;
+	margin:0;
+	padding:0 2px;
+}
+ul.rslides_tabs li a{
+	height:14px;
+	width:14px;
+	border-radius:10px;
+	text-indent:-9999px;
+	background:#000;
+	cursor:pointer;
+	display:block;
+	outline:none;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+a.prev {
+	left: 10px;
+	background: url(../images/left.png) no-repeat;
+	width:32px;
+	height:31px;
+	float:left;
+	text-indent:-9999px;
+	outline:none !important;
+}
+a.next {
+	right: 10px;
+	background: url(../images/right.png) no-repeat;
+	width:32px;
+	height:31px;
+	float:right;
+	text-indent:-9999px;
+	outline:none !important;
+}
+a.prev:hover, a.next:hover, ul.rslides_tabs li a:hover {
+	opacity: .7;
+}
