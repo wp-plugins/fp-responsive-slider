@@ -20,7 +20,7 @@ Demo: http://responsiveslides.com/
 A few notes about the sections above:
 * Fully Responsive
 * Here we use custom post types.
-* Template Code: <?php echo show_fprslider(); ?>
+* Template Code: echo show_fprslider(); 
 * Shortcode: [fprslider]
 
 FP Responsive Slider is a tiny plugin that creates a responsive slider using elements inside a container. FP Responsive Slider works with wide range of browsers including all IE versions from IE6 and up. It also adds css max-width support for IE6 and other browsers that don't natively support it. Only dependency is jQuery (1.6 and up supported) and that all the images are same size.
@@ -36,7 +36,7 @@ This section describes how to install the plugin and get it working.
 3. Activate the plugin from *Plugins > FP Responsive Slider > Activate*, under WordPress admin interface
 4. Settings page values will use when shortcode use or if you use template code. 
 5. Use this shortcode in your post or page to display FP Responsive Slider *[fprslider]*.
-6.Template Code: <?php echo show_fprslider(); ?>
+6.Template Code: echo show_fprslider(); 
 7. Manage Widget Settings.
 
 == Frequently Asked Questions ==
